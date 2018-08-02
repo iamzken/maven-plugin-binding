@@ -23,7 +23,7 @@
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <version>2.33.0</version>
+            <version>2.52.0</version>
         </dependency>
 
     </dependencies>
@@ -36,7 +36,6 @@
                 <version>8.1.12.v20130726</version>
 
                 <configuration>
-                    <scanintervalseconds>0</scanintervalseconds>
                     <stopKey>stop</stopKey>
                     <stopPort>9999</stopPort>
                 </configuration>
@@ -49,7 +48,6 @@
                             <goal>run</goal>
                         </goals>
                         <configuration>
-                            <scanintervalseconds>0</scanintervalseconds>
                             <daemon>true</daemon>
                         </configuration>
                     </execution>

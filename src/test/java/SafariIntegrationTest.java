@@ -22,11 +22,11 @@ public class SafariIntegrationTest {
 
     @Test
     public void testHelloWorldIndexPage() {
-        WebDriver driver = new HtmlUnitDriver();
+//        WebDriver driver = new HtmlUnitDriver();
 
 //        WebDriver driver = new SafariDriver();//use safari
 //        WebDriver driver = new InternetExplorerDriver();//use IE
-//        WebDriver driver = new FirefoxDriver();//use fireforx
+        WebDriver driver = new FirefoxDriver();//use fireforx
 
         driver.get("http://localhost:8080/helloworld.html");
         System.out.println(driver.getPageSource());
